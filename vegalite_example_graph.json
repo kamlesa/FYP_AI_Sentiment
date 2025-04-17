@@ -1,0 +1,17 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+    "description": "Pie Chart with percentage_tooltip",
+    "data": {
+      "values": [
+        {"category": "positive", "value": 20},
+        {"category": "neutral", "value": 15},
+        {"category": "negative", "value": 20}
+      ]
+    },
+    "mark": {"type": "arc", "tooltip": true},
+    "encoding": {
+      "theta": {"field": "value", "type": "quantitative", "stack": "normalize"},
+      "color": {"field": "category", "type": "nominal"}
+    }
+  }
+  
