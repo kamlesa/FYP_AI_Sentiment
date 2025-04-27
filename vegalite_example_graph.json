@@ -3,9 +3,9 @@
     "description": "Pie Chart with percentage_tooltip",
     "data": {
       "values": [
-        {"category": "positive", "value": 20},
-        {"category": "neutral", "value": 15},
-        {"category": "negative", "value": 20}
+        {"category": "positive", "value": 51},
+        {"category": "neutral", "value": 87},
+        {"category": "negative", "value": 2}
       ]
     },
     "mark": {"type": "arc", "tooltip": true},
